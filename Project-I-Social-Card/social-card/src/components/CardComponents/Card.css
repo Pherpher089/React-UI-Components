@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+
+.Card-Container{
+    background-color: white;
+    width: 60vw;
+    align-content: center;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    margin-left: 140px;
+}
+
+#Card-Img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+.Card-Content{
+    margin: 2rem;
+}
+
+.Card-Content .Title{
+    font-weight: bold;
+}
