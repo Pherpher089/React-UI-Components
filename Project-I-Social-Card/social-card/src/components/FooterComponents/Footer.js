@@ -4,10 +4,10 @@ import './Footer.css'
 const Footer = ()=>{
     return(
         <div className = "Footer">
-            <img src = {required ("")} />
-            <img src = {required ("")} />
-            <img src = {required ("")} />
-            <img src = {required ("")} />
+            <img src = {require("./msg-icon.png")} />
+            <img src = {require("./reshare-icon.png")} />
+            <img src = {require("./like-icon.png")} />
+            <img src = {require("./message-icon.png")} />
         </div>
     );
 }
