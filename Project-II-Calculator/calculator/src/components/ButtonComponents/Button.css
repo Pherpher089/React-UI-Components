@@ -1,0 +1,22 @@
+button{
+    width: 10rem;
+    height: 10rem;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.Clear-Button button{
+    width: 30rem;
+}
+
+.Number-Row{
+    display: flex;
+    flex-direction: row;
+}
+
+.Zero-Button button{
+    width: 30rem !important;
+}
