@@ -3,13 +3,32 @@ button{
     height: 10rem;
 }
 
+.Action-Button{
+    background-color: rgb(174, 19, 19);
+    border: 1px solid grey;
+    color: white;
+    font-size: 7rem;
+    
+}
+
+.Number-Button{
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
 .Buttons{
     display: flex;
     flex-direction: row;
 }
 
 .Clear-Button button{
+    background-color: white;
+    color: black;
     width: 30rem;
+
+    font-size: 4rem;
 }
 
 .Number-Row{
@@ -20,3 +39,5 @@ button{
 .Zero-Button button{
     width: 30rem !important;
 }
+
+

@@ -1,9 +1,13 @@
 import React from 'react';
 import './Display.css';
 
-const Display = ()=>{
+const Display = props =>{
     return(
-        <div className = 'Display'>display</div>    
+        <div className = 'Display'>
+            <div className='Value-Text'>
+                {props.value}
+            </div>
+        </div>    
     );
 };
 

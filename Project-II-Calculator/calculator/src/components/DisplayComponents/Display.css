@@ -1,5 +1,18 @@
 .Display{
     width: 0 auto;
-    height: 8rem;
-    background-color: grey;
+    height: 10rem;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 4rem;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.Value-Text{
+    margin-right: 2rem;
+    font-size: 7rem;
 }
