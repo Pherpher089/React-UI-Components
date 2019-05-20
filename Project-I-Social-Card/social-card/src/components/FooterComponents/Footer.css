@@ -1,0 +1,9 @@
+
+.Footer{
+    width: 30vw;
+    margin-top: 2rem;
+    margin-left: 140px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
